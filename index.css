@@ -1,12 +1,12 @@
-.center {
+#center {
   margin: auto;
   width: 50%;
 }
 
-.main {
+div.main {
   font-size: xxx-large;
 }
 
-.main {
+div.sub {
   font-size: xx-large;
 }
