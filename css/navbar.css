@@ -1,0 +1,48 @@
+nav.nav-bar {
+  box-shadow: 0 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.16),
+    0 0.1rem 0.7rem 0 rgba(0, 0, 0, 0.12);
+  background-color: white;
+  list-style-type: none;
+  overflow: hidden;
+  position: fixed;
+  display: block;
+  width: 100%;
+}
+
+nav.nav-bar li {
+  display: inline;
+  float: left;
+  width: auto;
+}
+
+nav.nav-bar img.icon {
+  height: 3.1rem;
+  width: auto;
+}
+
+nav.nav-bar li a {
+  text-decoration: none;
+  padding: 1rem 1rem 0rem 1rem;
+  text-align: center;
+  display: block;
+}
+
+nav.nav-bar div.left {
+  float: left;
+}
+
+nav.nav-bar div.right {
+  float: right;
+}
+
+nav.nav-bar div.right li a {
+  padding: 1.5rem 1rem 0rem 1rem;
+  vertical-align: middle;
+  text-align: center;
+  font-size: large;
+  height: 3rem;
+}
+
+nav.nav-bar div.right li a:visited {
+  text-decoration: none;
+}

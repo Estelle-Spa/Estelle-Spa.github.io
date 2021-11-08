@@ -1,0 +1,20 @@
+div.homepage {
+  margin: 10rem 0rem 10rem 0rem;
+  text-align: center; 
+  width: auto;
+}
+
+div.error-code {
+  margin: 0rem 0rem 1rem 0rem;
+  font-weight: bold;
+  font-size: 132px;
+}
+
+div.heading {
+  margin: 0rem 0rem 2rem 0rem;
+  font-size: 60px;
+}
+
+div.sub {
+  font-size: medium;
+}

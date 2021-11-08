@@ -1,0 +1,59 @@
+footer {
+  background-color: #14151a;
+  padding-bottom: 1rem;
+  color: white;
+}
+
+footer div.footer-content {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+div.footer-content li {
+  display: inline-flex;
+  text-align: center;
+  font-size: x-large;
+  margin: auto;
+}
+
+div.footer-content li.socials {
+  padding: 2rem 7.5rem 2rem 0rem;
+  display: inline-block;
+}
+
+li.socials div.section-name {
+  display: block;
+}
+
+li.socials div.socials-logos {
+  display: block;
+}
+
+div.socials-logos a img.icon {
+  display: inline;
+  height: 50px;
+  width: auto;
+}
+
+div.footer-content li.contact-us {
+  padding: 2rem 0rem 2rem 7.5rem;
+  display: inline-block;
+}
+
+div.contact-us-info a {
+  font-size: small;
+  color: white;
+}
+
+footer div.division {
+  border: 1px solid #424347;
+  text-align: center;
+}
+
+footer div.copyright {
+  padding: 1rem 0rem 2rem 0rem;
+  text-align: center;
+  font-size: small;
+  margin: auto;
+}

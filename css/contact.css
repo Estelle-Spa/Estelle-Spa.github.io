@@ -1,0 +1,55 @@
+div.heading {
+  padding: 1rem 0rem 1rem 0rem;
+  font-size: xx-large;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+div.contact-us-form-div {
+  font-size: large;
+  margin: auto;
+  width: 30%;
+}
+
+div.pnaeh {
+  text-align: left;
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+div.message-form {
+  margin: 1rem 0rem 3rem 0rem;
+}
+
+input.input {
+  margin: 0rem 0rem 1rem 0rem;
+  border: 1px solid #ccc;
+  height: 2rem;
+  width: 80%;
+}
+
+span.star {
+  color: red;
+}
+
+textarea.textarea {
+  border: 1px solid #ccc;
+  height: 5rem;
+  resize: none;
+  width: 80%;
+}
+
+input.button {
+  margin: 1rem 0rem 0rem 0rem;
+  background: #B4A2B6;
+  padding: 10px 26px;
+  box-shadow: none;
+  font-size: large;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: none;
+}

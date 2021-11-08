@@ -1,0 +1,33 @@
+div.heading {
+  padding: 1rem 0rem 1rem 0rem;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  margin: auto;
+}
+
+div.facials {
+  text-align: left;
+  margin: auto;
+  width: 30%;
+}
+
+div.standard-treatments span.title, div.targeted-treatments span.title, div.add-ons span.title, div.other-treatments span.title, div.professional-additive span.title {
+  font-size: medium;
+  font-weight: bold;
+}
+
+div.section-name {
+  margin: 2rem 0rem 0rem 0rem;
+  font-size: x-large;
+  font-weight: 550;
+}
+
+div.facial, div.add-on, div.other-treatment, div.professional-additive {
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+div.professional-additives div.section-header div.section-name span.price {
+  font-weight: normal;
+}

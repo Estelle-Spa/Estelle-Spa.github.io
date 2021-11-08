@@ -1,0 +1,28 @@
+html,
+body {
+  font-family: Verdana, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+}
+
+main {
+  padding-top: 4rem;
+}
+
+#centerThis {
+  text-align: center;
+  color: white;
+  padding: 0.7rem;
+  margin: auto;
+  width: 50%;
+}
+
+a :visited {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

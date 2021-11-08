@@ -1,0 +1,101 @@
+#center {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+div.homepage {
+  display: block;
+  margin: 0rem 0rem 3rem 0rem;
+}
+
+div.cover-image img {
+  width: 100%;
+}
+
+div.short-about-us {
+  padding: 4rem 0rem 4rem 0rem ;
+}
+
+div.title {
+  font-size: xxx-large;
+}
+
+div.subtext {
+  font-size: xx-large;
+  margin: auto;
+  width: 60%;
+}
+
+div.homepage div.socials {
+  padding: 4rem 0rem 4rem 0rem;
+  /* background-color: #977A6F; */
+  background-color: #B4A2B6;
+  font-size: xxx-large;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+div.homepage div.socials div.follow-us-text {
+  font-size: xxx-large;
+}
+
+div.homepage div.socials div.follow-us-icons {
+  size: 70px;
+}
+
+div.homepage div.socials div.follow-us-icons img.icon {
+  padding: 4rem 0rem 0rem 0rem;
+  color: white;
+  height: 70px;
+  width: auto ;
+}
+
+div.homepage div.socials div.follow-us-icons a {
+  text-decoration: none;
+}
+
+div.services {
+  text-align: center;
+  margin: auto;
+}
+
+div.services p.targeted-treatments-headline {
+  font-size: xx-large;
+}
+
+div.services li {
+  display: inline;
+}
+
+div.services li div.treatment-card {
+  background-color: #F1F1F1;
+  /* border-color: black; */
+  display: inline-flex;
+  /* border: .1rem solid; */
+  margin: 0rem 1rem 0rem 1rem;
+  width: auto;
+}
+
+figure {
+  margin-inline-start: 0rem;
+  margin-block-start: 0rem;
+  margin-inline-end: 0rem;
+  margin-block-end: 0rem;
+  display: block;
+}
+
+figcaption.treatment-name {
+  font-size: x-large;
+}
+
+div.treatment-image {
+  display: inline;
+}
+
+div.treatment-card img {
+  display: inline;
+  height: auto;
+  width: 15rem;
+}
