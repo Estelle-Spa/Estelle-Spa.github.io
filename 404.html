@@ -47,41 +47,51 @@
     />
     <link rel="stylesheet" href="https://estellespaoakville.ca/css/main.css" />
     <link rel="stylesheet" href="https://estellespaoakville.ca/css/404.css" />
+
+    <script src="https://estellespaoakville.ca/navbar/navbar.js"></script>
   </head>
   <body>
     <header>
       <nav id="navbar" class="nav-bar">
-          <div class="left">
-            <li>
-              <a href="https://estellespaoakville.ca/">
-                <img
-                  class="icon"
-                  src="images/Estelle Spa.png"
-                  alt="Estelle's Spa"
-                />
+        <div class="left">
+          <li>
+            <a href="https://estellespaoakville.ca/">
+              <img
+                class="icon"
+                src="images/Estelle Spa.png"
+                alt="Estelle's Spa"
+              />
+            </a>
+          </li>
+        </div>
+        <div class="right">
+          <div class="bars">
+            <a
+              href="javascript::void(0);"
+              class="icon"
+              onclick="navResponsive()"
+            >
+              <img
+                class="bars-icon"
+                src="https://estellespaoakville.ca/images/icons/bars.svg"
+                alt="bars.svg"
+              />
+            </a>
+          </div>
+          <div class="options">
+            <li class="hide">
+              <a href="https://estellespaoakville.ca/"> HOME </a>
+            </li>
+            <li class="hide">
+              <a href="https://estellespaoakville.ca/services/"> SERVICES </a>
+            </li>
+            <li class="hide">
+              <a href="https://estellespaoakville.ca/contact/index">
+                CONTACT US
               </a>
             </li>
           </div>
-          <div class="right">
-            <div class="bars">
-              <a href="javascript::void(0);" class="icon" onclick="navResponsive()">
-                <img class="bars-icon" src="https://estellespaoakville.ca/images/icons/bars.svg" alt="bars.svg">
-              </a>
-            </div>
-            <div class="options">
-              <li class="hide">
-                <a href="https://estellespaoakville.ca/"> HOME </a>
-              </li>
-              <li class="hide">
-                <a href="https://estellespaoakville.ca/services/"> SERVICES </a>
-              </li>
-              <li class="hide">
-                <a href="https://estellespaoakville.ca/contact/index">
-                  CONTACT US
-                </a>
-              </li>
-            </div>
-          </div>
+        </div>
       </nav>
     </header>
 

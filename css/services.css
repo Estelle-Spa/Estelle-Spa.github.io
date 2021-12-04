@@ -13,7 +13,11 @@ div.facials {
   width: 30%;
 }
 
-div.standard-treatments span.title, div.targeted-treatments span.title, div.add-ons span.title, div.other-treatments span.title, div.professional-additive span.title {
+div.standard-treatments span.title,
+div.targeted-treatments span.title,
+div.add-ons span.title,
+div.other-treatments span.title,
+div.professional-additive span.title {
   font-size: medium;
   font-weight: bold;
 }
@@ -24,7 +28,10 @@ div.section-name {
   font-weight: 550;
 }
 
-div.facial, div.add-on, div.other-treatment, div.professional-additive {
+div.facial,
+div.add-on,
+div.other-treatment,
+div.professional-additive {
   margin: 1rem 0rem 1rem 0rem;
 }
 
