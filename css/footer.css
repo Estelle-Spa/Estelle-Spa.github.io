@@ -6,7 +6,6 @@ footer {
 
 footer div.footer-content {
   text-align: center;
-  display: block;
   margin: auto;
 }
 
@@ -18,8 +17,8 @@ div.footer-content li {
 }
 
 div.footer-content li.socials {
-  padding: 2rem 7.5rem 2rem 0rem;
   display: inline-block;
+  vertical-align: top;
 }
 
 li.socials div.section-name {
@@ -56,4 +55,32 @@ footer div.copyright {
   text-align: center;
   font-size: small;
   margin: auto;
+}
+
+@media screen and (min-width: 601px) {
+  footer div.footer-content {
+    display: block;
+  }
+
+  div.footer-content li.socials {
+    padding: 3rem 7.5rem 2rem 0rem;
+  }
+
+  div.footer-content li.contact-us {
+    padding: 2rem 0rem 2rem 7.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer div.footer-content {
+    display: grid;
+  }
+
+  div.footer-content li.socials {
+    padding: 3rem 0rem 2rem 0rem;
+  }
+
+  div.footer-content li.contact-us {
+    padding: 2rem 0rem 2rem 0rem;
+  }
 }

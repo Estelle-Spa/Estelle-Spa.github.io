@@ -21,9 +21,8 @@ nav.nav-bar img.icon {
 }
 
 nav.nav-bar li a {
-  text-decoration: none;
   padding: 1rem 1rem 0rem 1rem;
-  text-align: center;
+  text-decoration: none;
   display: block;
 }
 
@@ -31,18 +30,63 @@ nav.nav-bar div.left {
   float: left;
 }
 
-nav.nav-bar div.right {
-  float: right;
-}
-
 nav.nav-bar div.right li a {
-  padding: 1.5rem 1rem 0rem 1rem;
   vertical-align: middle;
-  text-align: center;
   font-size: large;
   height: 3rem;
 }
 
 nav.nav-bar div.right li a:visited {
   text-decoration: none;
+}
+
+@media screen and (min-width: 601px) {
+  nav.nav-bar div.bars a.icon {
+    display: none;
+  }
+
+  nav.nav-bar div a.icon img.bars-icon {
+    display: none;
+  }
+
+  nav.nav-bar div.right li a {
+    padding: 1.5rem 1rem 0rem 1rem;
+  }
+
+  nav.nav-bar div.right {
+    float: right;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav.nav-bar div.right li a {
+    padding: 1rem 1rem 0rem 1rem;
+  }
+
+  nav.nav-bar div a.icon img.bars-icon {
+    text-align: left;
+    display: block;
+    padding: 1rem;
+    float: right;
+    height: 2rem;
+    width: auto;
+  }
+
+  
+  nav.nav-bar.responsive li.hide {
+    text-align: left;
+    display: block;
+    float: none;
+  }
+
+  div.options {
+    padding: 4rem 0rem 0rem 0rem;
+  }
+
+  nav.nav-bar li.hide {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
 }

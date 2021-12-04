@@ -1,20 +1,17 @@
-#center {
-  text-align: center;
-  margin: auto;
-  width: 50%;
-}
-
 div.homepage {
   display: block;
   margin: 0rem 0rem 3rem 0rem;
 }
 
 div.cover-image img {
-  width: 100%;
+  height: auto;
+  width: auto;
 }
 
 div.short-about-us {
-  padding: 4rem 0rem 4rem 0rem ;
+  padding: 4rem 0rem 4rem 0rem;
+  text-align: center;
+  margin: auto;
 }
 
 div.title {
@@ -22,15 +19,13 @@ div.title {
 }
 
 div.subtext {
-  font-size: xx-large;
   margin: auto;
   width: 60%;
 }
 
 div.homepage div.socials {
   padding: 4rem 0rem 4rem 0rem;
-  /* background-color: #977A6F; */
-  background-color: #B4A2B6;
+  background-color: #b4a2b6;
   font-size: xxx-large;
   text-align: center;
   margin: auto;
@@ -49,7 +44,7 @@ div.homepage div.socials div.follow-us-icons img.icon {
   padding: 4rem 0rem 0rem 0rem;
   color: white;
   height: 70px;
-  width: auto ;
+  width: auto;
 }
 
 div.homepage div.socials div.follow-us-icons a {
@@ -70,15 +65,13 @@ div.services li {
 }
 
 div.services li div.treatment-card {
-  background-color: #F1F1F1;
-  /* border-color: black; */
-  display: inline-flex;
-  /* border: .1rem solid; */
   margin: 0rem 1rem 0rem 1rem;
+  display: inline-flex;
   width: auto;
 }
 
 figure {
+  background-color: #f1f1f1;
   margin-inline-start: 0rem;
   margin-block-start: 0rem;
   margin-inline-end: 0rem;
@@ -94,8 +87,40 @@ div.treatment-image {
   display: inline;
 }
 
+div.treatment-card {
+  padding-top: 1rem;
+}
+
 div.treatment-card img {
   display: inline;
   height: auto;
   width: 15rem;
+}
+
+div.copyright {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+@media screen and (min-width: 601px) {
+  div.cover-image img {
+    content: url("https://estellespaoakville.ca/images/cover.jpeg");
+    min-width: 100%;
+  }
+
+  div#center div.subtext {
+    font-size: xx-large;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.cover-image img {
+    content: url("https://estellespaoakville.ca/images/tallCover.jpeg");
+    max-width: 100%;
+  }
+
+  div#center div.subtext {
+    font-size: x-large;
+  }
 }
